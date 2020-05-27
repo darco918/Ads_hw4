@@ -3,4 +3,4 @@ project(ADS4)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ADS4 main.cpp)
+add_executable(ADS4 main.cpp Point.cpp Point.h)

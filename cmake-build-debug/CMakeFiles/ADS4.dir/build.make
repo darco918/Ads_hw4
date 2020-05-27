@@ -77,17 +77,38 @@ CMakeFiles\ADS4.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ADS4.dir\main.cpp.s /c C:\Users\murja\CLionProjects\ADS4\main.cpp
 <<
 
+CMakeFiles\ADS4.dir\Point.cpp.obj: CMakeFiles\ADS4.dir\flags.make
+CMakeFiles\ADS4.dir\Point.cpp.obj: ..\Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\murja\CLionProjects\ADS4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ADS4.dir/Point.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ADS4.dir\Point.cpp.obj /FdCMakeFiles\ADS4.dir\ /FS -c C:\Users\murja\CLionProjects\ADS4\Point.cpp
+<<
+
+CMakeFiles\ADS4.dir\Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ADS4.dir/Point.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\ADS4.dir\Point.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\murja\CLionProjects\ADS4\Point.cpp
+<<
+
+CMakeFiles\ADS4.dir\Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ADS4.dir/Point.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ADS4.dir\Point.cpp.s /c C:\Users\murja\CLionProjects\ADS4\Point.cpp
+<<
+
 # Object files for target ADS4
 ADS4_OBJECTS = \
-"CMakeFiles\ADS4.dir\main.cpp.obj"
+"CMakeFiles\ADS4.dir\main.cpp.obj" \
+"CMakeFiles\ADS4.dir\Point.cpp.obj"
 
 # External object files for target ADS4
 ADS4_EXTERNAL_OBJECTS =
 
 ADS4.exe: CMakeFiles\ADS4.dir\main.cpp.obj
+ADS4.exe: CMakeFiles\ADS4.dir\Point.cpp.obj
 ADS4.exe: CMakeFiles\ADS4.dir\build.make
 ADS4.exe: CMakeFiles\ADS4.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\murja\CLionProjects\ADS4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ADS4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\murja\CLionProjects\ADS4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ADS4.exe"
 	"C:\Users\murja\AppData\Local\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\ADS4.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\ADS4.dir\objects1.rsp @<<
  /out:ADS4.exe /implib:ADS4.lib /pdb:C:\Users\murja\CLionProjects\ADS4\cmake-build-debug\ADS4.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

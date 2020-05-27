@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/murja/CLionProjects/ADS4/Point.cpp">
+			<Option target="ADS4"/>
+		</Unit>
+		<Unit filename="C:/Users/murja/CLionProjects/ADS4/Point.h">
+			<Option target="ADS4"/>
+		</Unit>
 		<Unit filename="C:/Users/murja/CLionProjects/ADS4/main.cpp">
 			<Option target="ADS4"/>
 		</Unit>

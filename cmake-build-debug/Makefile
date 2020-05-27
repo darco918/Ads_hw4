@@ -124,6 +124,33 @@ ADS4\fast:
 	$(MAKE) -f CMakeFiles\ADS4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADS4.dir\build
 .PHONY : ADS4\fast
 
+Point.obj: Point.cpp.obj
+
+.PHONY : Point.obj
+
+# target to build an object file
+Point.cpp.obj:
+	$(MAKE) -f CMakeFiles\ADS4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADS4.dir\Point.cpp.obj
+.PHONY : Point.cpp.obj
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) -f CMakeFiles\ADS4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADS4.dir\Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) -f CMakeFiles\ADS4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADS4.dir\Point.cpp.s
+.PHONY : Point.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +187,9 @@ help:
 	@echo ... ADS4
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Point.obj
+	@echo ... Point.i
+	@echo ... Point.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
